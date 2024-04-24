@@ -1,0 +1,88 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+}
+
+#container {
+    width: 75%;
+    max-width: 960px;
+    min-width: 720px;
+    margin: 0 auto;
+}
+
+#logomarca {
+    font-size: 2.5em;
+    background-color:#dadafa;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    border: 2px solid blue;
+}
+
+#conteudo {
+    
+    float: right;
+    width: 72%; /* 520px = 72,2% */
+}
+
+#conteudo-principal {
+    width: 60%; /* 318px = 61,1%*/
+    float: left;
+    padding: 5px;
+}
+
+#conteudo-secundario {
+    background-color: #dadafa;
+    float: right;
+    width: 33%; /* 178px = 34,2%*/
+    padding: 5px;
+}
+
+#navegacao {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 25%; /* 180 px = 25%*/
+    float: left;
+    background-color: lightblue;
+}
+
+#navegacao ul {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#navegacao li a {
+	display: block;
+	padding: 10px;
+	line-height: 2em;
+	text-decoration: none;
+	color: black;
+    border: 1px solid blue;
+    background-color: #dadafa;
+}
+
+#navegacao a:hover {
+    background-color: rgb(49, 155, 241);
+    font-weight: bold;
+}
+
+#formulario label {
+    margin-left: 10px;
+}
+
+#formulario input {
+    display: block;
+    width: 150px;
+    float: none;
+    margin-left: 10px;
+        
+}
+
+#rodape {
+    clear: both;
+	background: #dadafa;
+	padding: 5px;
+    text-align: center;
+    border: 2px solid blue;
+}
